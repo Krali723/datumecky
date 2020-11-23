@@ -24,8 +24,8 @@ function cas() {
 function patek13(){
   let mesic_akt = new Date().getMonth(); 
   let mesice = 12;
-  let patecky = " "
-  for (let i = 0; i <= mesice; i++){
+  let patecky = " ";
+  for (let i = 0; i < mesice; i++){
     let datum = new Date (2020, mesic_akt + i, 13).getDay(); 
     if(datum == 5){
       let den = new Date (2020, mesic_akt + i, 13).toLocaleDateString();
